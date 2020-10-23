@@ -1,3 +1,7 @@
+// for loop
+// for numbers 1-100, multiples of 3 print as Fizz, multiples of 5 as Buzz, and multiples of both as FizzBuzz
+// all other numbers print as normal
+
 for num in 1...100 {
    if num % 3 == 0 && num % 5 == 0 {
     print("Fizzbuzz")
