@@ -1,7 +1,8 @@
-// for loop
 // for numbers 1-100, multiples of 3 print as Fizz, multiples of 5 as Buzz, and multiples of both as FizzBuzz
 // all other numbers print as normal
 
+
+// for loop
 for num in 1...100 {
    if num % 3 == 0 && num % 5 == 0 {
     print("Fizzbuzz")
@@ -12,4 +13,19 @@ for num in 1...100 {
   } else {
     print(num)
    }
+}
+
+// while loop
+while counter <= 100 {
+  // Could also do: counter % 15 == 0
+  if counter % 3 == 0 && counter % 5 == 0 {
+    print("FizzBuzz")
+  } else if counter % 3 == 0 {
+    print("Fizz")
+  } else if counter % 5 == 0 {
+    print("Buzz")
+  } else {
+    print(counter)
+  }
+  counter += 1
 }
